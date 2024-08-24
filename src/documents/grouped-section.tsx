@@ -42,7 +42,7 @@ type EventSectionProps = {
 export function GroupedSection({ title, children, theme }: EventSectionProps) {
   return (
     <Section theme={theme} title={title}>
-      <VStack gap={theme.space[7]}>{children}</VStack>
+      <VStack gap={theme.space[0]}>{children}</VStack>
     </Section>
   );
 }

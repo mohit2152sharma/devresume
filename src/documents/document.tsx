@@ -53,7 +53,7 @@ export function ResumeDocument({ resume }: Props) {
 
   const theme = useMemo(
     () => createTheme(accentColor, baseFontSize),
-    [accentColor, baseFontSize]
+    [accentColor, baseFontSize],
   );
   const styles = createStyles(theme);
 

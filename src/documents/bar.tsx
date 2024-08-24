@@ -10,7 +10,7 @@ function createStyles(theme: Theme) {
   return StyleSheet.create({
     root: {
       backgroundColor: theme.color.accent,
-      height: theme.space[4],
+      height: theme.space[5],
       position: "absolute",
       left: 0,
       right: 0,

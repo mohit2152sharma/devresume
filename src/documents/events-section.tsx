@@ -90,7 +90,7 @@ export function EventItem({
         {description && <RichText>{description}</RichText>}
       </VStack>
 
-      {children && <VStack gap={theme.space[2]}>{children}</VStack>}
+      {children && <VStack gap={theme.space[0]}>{children}</VStack>}
     </VStack>
   );
 }
